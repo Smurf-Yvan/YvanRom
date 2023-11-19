@@ -1,7 +1,7 @@
 # Xiaomi HyperOS 官改制作
 ## 首要命令
    ```bash
-   sudo chmod a+x ./*
+   sudo chmod 0755 *
    ```
 ## zst 转换命令
    ```bash
