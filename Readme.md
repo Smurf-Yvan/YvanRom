@@ -6,7 +6,7 @@
 ![Alt text](Doc/image.png)
    ```bash
    cp -r TIK /tmp/
-   cd TIK
+   cd /tmp/TIK
    sudo ./run
    ```
 
