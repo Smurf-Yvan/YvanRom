@@ -1,5 +1,4 @@
 {
-    "mydir": "TIK",
     "supername": "super",
     "brcom": "1",
     "configcompl": "1",
@@ -15,7 +14,6 @@
     "super_group": "qti_dynamic_partitions",
     "superpart_list": "system odm vendor system_ext product",
     "erofslim": "lz4hc,8",
-    "extrw": "",
     "utcstamp": "1230768000",
     "diysize": "",
     "diyimgtype": "1",
