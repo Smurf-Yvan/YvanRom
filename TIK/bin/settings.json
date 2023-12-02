@@ -1,10 +1,8 @@
 {
     "supername": "super",
     "brcom": "1",
-    "configcompl": "1",
     "banner": "1",
     "pack_e2": "1",
-    "slotnumber": "2",
     "pack_sparse": "0",
     "autoslotsuffixing": "",
     "fullsuper": "-F",
@@ -12,7 +10,6 @@
     "SBLOCKSIZE": "4096",
     "metadatasize": "65536",
     "super_group": "qti_dynamic_partitions",
-    "superpart_list": "system odm vendor system_ext product",
     "erofslim": "lz4hc,8",
     "utcstamp": "1230768000",
     "diysize": "",
