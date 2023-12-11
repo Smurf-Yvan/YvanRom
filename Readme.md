@@ -13,11 +13,19 @@
 ## 其他命令
    ```bash
    sudo chmod 0755 *
+   aria2c '' -o pad.zip -s 64 -x 16 -c
+   du -sh ./*
+   sudo rm -rf /tmp/TIK/Pad/super.img
+   sudo rm -rf /tmp/TIK/Pad/*.img
+   sudo mv /tmp/TIK/Pad/TI_out/super.img ./
+   7z x pad.7z -r -oPad
+   7z a -t7z -r Pad.7z ./*
+   ./OneDriveUploader -s "/tmp/" "Personal_Interest"
    ```
 ## zst 转换命令
    ```bash
    sudo apt update
    sudo apt install zstd
    zstd  --rm -d super.zst -o super.img
-   aria2c '' -o pad.zip -s 64 -x 16 -c
+
    ```
