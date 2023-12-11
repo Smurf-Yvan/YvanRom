@@ -19,4 +19,5 @@
    sudo apt update
    sudo apt install zstd
    zstd  --rm -d super.zst -o super.img
+   aria2c '' -o pad.zip -s 64 -x 16 -c
    ```
