@@ -15,11 +15,11 @@
    sudo chmod 0755 *
    aria2c '' -o xxx.zip -s 64 -x 16 -c
    du -sh ./*
-   sudo rm -rf /tmp/TIK/Pad/super.img
-   sudo rm -rf /tmp/TIK/Pad/*.img
-   sudo mv /tmp/TIK/Pad/TI_out/super.img ./
-   7z x pad.7z -r -oPad
-   7z a -t7z -r Pad.7z ./*
+   sudo rm -rf /tmp/TIK/xxx/super.img
+   sudo rm -rf /tmp/TIK/xxx/*.img
+   sudo mv /tmp/TIK/xxx/TI_out/super.img ./
+   7z x xxx.7z -r -oxxx
+   7z a -t7z -r xxx.7z ./*
    ./OneDriveUploader -s "/tmp/" "Personal_Interest"
    ```
 ## zst 转换命令
