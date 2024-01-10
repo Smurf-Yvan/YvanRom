@@ -13,7 +13,7 @@
 ## 其他命令
    ```bash
    sudo chmod 0755 *
-   aria2c '' -o pad.zip -s 64 -x 16 -c
+   aria2c '' -o xxx.zip -s 64 -x 16 -c
    du -sh ./*
    sudo rm -rf /tmp/TIK/Pad/super.img
    sudo rm -rf /tmp/TIK/Pad/*.img
