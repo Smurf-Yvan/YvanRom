@@ -26,6 +26,6 @@
    ```bash
    sudo apt update
    sudo apt install zstd
-   zstd  --rm -d super.zst -o /tmp/TIK/你的项目名/super.img
-   zstd --rm super.img -o super.zst
+   sudo zstd  --rm -d super.zst -o /tmp/TIK/你的项目名/super.img
+   sudo zstd --rm super.img -o super.zst
    ```
