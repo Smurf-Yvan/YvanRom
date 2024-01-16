@@ -15,17 +15,17 @@
    sudo chmod 0755 *
    aria2c '' -o xxx.zip -s 64 -x 16 -c
    du -sh ./*
-   sudo rm -rf /tmp/TIK/xxx/super.img
-   sudo rm -rf /tmp/TIK/xxx/*.img
-   sudo mv /tmp/TIK/xxx/TI_out/super.img ./
+   sudo rm -rf /tmp/TIK/你的项目名/super.img
+   sudo rm -rf /tmp/TIK/你的项目名/*.img
+   sudo mv /tmp/TIK/你的项目名/TI_out/super.img ./
    7z x xxx.7z -r -oxxx
    7z a -t7z -r xxx.7z ./*
-   ./OneDriveUploader -s "/tmp/" "Personal_Interest"
+   ./OneDriveUploader -s "文件位置" "Personal_Interest"
    ```
 ## zst 转换命令
    ```bash
    sudo apt update
    sudo apt install zstd
-   zstd  --rm -d super.zst -o super.img
-
+   zstd  --rm -d super.zst -o /tmp/TIK/你的项目名/super.img
+   zstd --rm super.img -o super.zst
    ```
