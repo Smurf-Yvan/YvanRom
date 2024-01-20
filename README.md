@@ -5,9 +5,7 @@
 ### 你不使用codespace 除外
 ![Alt text](Doc/image.png)
    ```bash
-   cp -r TIK /tmp/
-   cd /tmp/TIK
-   sudo ./run
+   cp -r TIK /tmp/ && cd /tmp/TIK && sudo ./run
    ```
 
 ## 其他命令
