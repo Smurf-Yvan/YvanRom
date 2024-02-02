@@ -14,5 +14,6 @@
     "utcstamp": "1230768000",
     "diysize": "",
     "diyimgtype": "1",
-    "online": "true"
+    "online": "true",
+    "erofs_old_kernel": "0"
 }
