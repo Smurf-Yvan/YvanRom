@@ -17,5 +17,5 @@
     "online": "true",
     "erofs_old_kernel": "0",
     "context": "true",
-    "version": "4.92"
+    "version": "4.110"
 }
