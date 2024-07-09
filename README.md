@@ -5,7 +5,7 @@
 ### 你不使用codespace 除外
 ![Alt text](Doc/image.png)
    ```bash
-   cp -r TIK /tmp/ && cd /tmp/TIK && sudo ./run
+   cp -r TIK5 /tmp/ && cd /tmp/TIK5 && sudo ./run
    ```
 
 ## 其他命令
@@ -13,9 +13,9 @@
    sudo chmod 0755 *
    aria2c '' -s 64 -x 16 -c -o xxx.zip
    du -sh ./*
-   sudo rm -rf /tmp/TIK/你的项目名/super.img
-   sudo rm -rf /tmp/TIK/你的项目名/*.img
-   sudo mv /tmp/TIK/你的项目名/TI_out/super.img ./
+   sudo rm -rf /tmp/TIK5/你的项目名/super.img
+   sudo rm -rf /tmp/TIK5/你的项目名/*.img
+   sudo mv /tmp/TIK5/你的项目名/TI_out/super.img ./
    7z x xxx.7z -r -oxxx
    7z a -t7z -r xxx.7z ./*
    ./OneDriveUploader -s "文件位置" "Personal_Interest"
@@ -24,6 +24,6 @@
    ```bash
    sudo apt update
    sudo apt install zstd
-   sudo zstd  --rm -d super.zst -o /tmp/TIK/你的项目名/super.img
+   sudo zstd  --rm -d super.zst -o /tmp/TIK5/你的项目名/super.img
    sudo zstd --rm super.img -o super.zst
    ```
