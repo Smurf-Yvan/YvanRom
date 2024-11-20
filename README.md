@@ -19,7 +19,7 @@
    sudo apt install p7zip-full
    7z x xxx.7z -r -oxxx
    7z a -t7z -r HyperOS2.0.17.2.VJBCNXM_UMI_15.0-b4e6aff511.7z ./*
-   ./OneDriveUploader -s "文件位置" "Personal_Interest"
+   ./OneDriveUploader -s "文件位置" "刷机包"
    ```
 ## zst 转换命令
    ```bash
