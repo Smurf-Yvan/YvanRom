@@ -16,8 +16,9 @@
    sudo rm -rf /tmp/TIK5/你的项目名/super.img
    sudo rm -rf /tmp/TIK5/你的项目名/*.img
    sudo mv /tmp/TIK5/你的项目名/TI_out/super.img ./
+   sudo apt install p7zip-full
    7z x xxx.7z -r -oxxx
-   7z a -t7z -r xxx.7z ./*
+   7z a -t7z -r HyperOS2.0.17.2.VJBCNXM_UMI_15.0-b4e6aff511.7z ./*
    ./OneDriveUploader -s "文件位置" "Personal_Interest"
    ```
 ## zst 转换命令
