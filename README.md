@@ -23,7 +23,7 @@
 ## zst 转换命令
    ```bash
    sudo apt update
-   sudo apt install zstd
+   sudo apt install zstd -y
    sudo zstd  --rm -d super.zst -o /tmp/TIK5/你的项目名/super.img
    sudo zstd --rm super.img -o super.zst
    ```
